@@ -122,11 +122,14 @@ public class ListReferenceBased implements ListInterface
   } // end removeAll
   
   public void displayList() {
-	  Node curr = head;
+	  //Node curr = head;
 	  
-	  while(curr != null) {
-		  
-	  }
+	 for(Node curr = head; curr != null; curr = curr.getNext()) {
+		 System.out.println(curr.getItem());
+		 
+	 }
+	 System.out.println("----------End----------");
+	  
   }
 
 

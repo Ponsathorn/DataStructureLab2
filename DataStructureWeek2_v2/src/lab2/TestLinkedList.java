@@ -8,8 +8,9 @@ public class TestLinkedList {
 		
 		//Testing isEmpty
 		System.out.println("Is the list empty?: " + alist.isEmpty());
+		System.out.println("----------------------");
 		System.out.println("What is the size of the array?: " + alist.size());
-		
+		System.out.println("----------------------");
 		//Testing Add
 		alist.add(1, "Milk");
 		alist.add(2, "Watermelon");
@@ -17,10 +18,13 @@ public class TestLinkedList {
 		alist.add(4, "Hams");
 		alist.add(5, "Cheese");
 		System.out.println("What is the size of the array?: " + alist.size());
-		
+		System.out.println("----------------------");
 		//Testing Remove
 		alist.remove(5);
 		System.out.println("What is the size of the array?: " + alist.size());
+		System.out.println("----------------------");
+		alist.displayList();
+		
 		
 		
 		
