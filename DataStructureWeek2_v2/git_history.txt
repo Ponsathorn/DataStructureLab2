@@ -1,0 +1,31 @@
+commit 1fd44151fc3c8c81b1d8426d4c6a5e5332ab2443
+Author: Ponsathorn <jayc0479@gmail.com>
+Date:   Fri Oct 2 19:50:31 2026 +0100
+
+    Double Check commit
+
+commit 06dc0b4fbdf6bc8988aaa6c9cee852a91310a6e7
+Author: Ponsathorn <jayc0479@gmail.com>
+Date:   Fri Oct 2 19:45:42 2026 +0100
+
+    Question 1.3 tried
+
+commit cfc3117a4e4479126113abe1b8253802951a4f0b
+Author: Ponsathorn <jayc0479@gmail.com>
+Date:   Fri Oct 2 19:09:44 2026 +0100
+
+    Question 1.2 Finish
+
+commit 82ee7068538bde22a770b0921ec8d914933eb0ea
+Author: Ponsathorn <jayc0479@gmail.com>
+Date:   Fri Oct 2 18:16:45 2026 +0100
+
+    Question 1.1 finish
+    
+    Fist commit
+
+commit 109ba8d8472d2dfdb98579c71c0f92173d74575a
+Author: Ponsathorn <jayc0479@gmail.com>
+Date:   Tue Sep 29 14:36:18 2026 +0100
+
+    First commit
