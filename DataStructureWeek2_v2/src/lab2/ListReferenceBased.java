@@ -131,6 +131,25 @@ public class ListReferenceBased implements ListInterface
 	 System.out.println("----------End----------");
 	  
   }
+  
+  public void listLongest() {
+	 Node longest = null;
+	 for(Node curr = head; curr != null; curr = curr.getNext()) {
+			 
+		 if(curr.compareTo(longest)) {
+			 longest = curr;
+		 }
+		 else {
+			 //Nothing
+		 }
+	}
+	 System.out.print(longest);
+	  System.out.println("----------End----------");
+  }
 
+  
+  
+  
+  
 
 } // end ListReferenceBased
