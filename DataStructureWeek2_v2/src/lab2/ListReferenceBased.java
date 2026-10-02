@@ -120,6 +120,14 @@ public class ListReferenceBased implements ListInterface
     head = null;
     numItems = 0;
   } // end removeAll
+  
+  public void displayList() {
+	  Node curr = head;
+	  
+	  while(curr != null) {
+		  
+	  }
+  }
 
 
 } // end ListReferenceBased

@@ -4,16 +4,30 @@ public class TestLinkedList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ListArrayBased alist = new ListArrayBased();
+		ListReferenceBased alist = new ListReferenceBased();
 		
-		//Testing methods [Fine]
+		//Testing isEmpty
 		System.out.println("Is the list empty?: " + alist.isEmpty());
+		System.out.println("What is the size of the array?: " + alist.size());
+		
+		//Testing Add
+		alist.add(1, "Milk");
+		alist.add(2, "Watermelon");
+		alist.add(3, "Eggs");
+		alist.add(4, "Hams");
+		alist.add(5, "Cheese");
+		System.out.println("What is the size of the array?: " + alist.size());
+		
+		//Testing Remove
+		alist.remove(5);
 		System.out.println("What is the size of the array?: " + alist.size());
 		
 		
 		
+		
+		
 		//Testing the commit
-		System.out.println("Testing commit");
+		//System.out.println("Testing commit");
 		
 		/*
 		 * My own note
@@ -25,10 +39,6 @@ public class TestLinkedList {
 		// Go into the Window (At the top left) -> show view and open up Terminal
 		// Type in git log > git_history.txt
 		// Upload git history file
-	}
-	
-	public void displayLinkedList (ListArrayBased list){
-		
 	}
 
 }
